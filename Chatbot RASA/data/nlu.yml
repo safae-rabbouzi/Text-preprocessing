@@ -1,0 +1,56 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - good morning
+    - good evening
+    - hey there
+- intent: goodbye
+  examples: |
+    - good by
+    - bye
+    - goodbye
+    - see you around
+    - see you later
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+- intent: weather
+  examples: |
+    -what's the weather
+    -what is the temperature today
+    -what is the temperature
+    -i want to know the temperature
+    -i want to know the weather of today
+    -tell me the weather forecast
+    -hows the weather today
+- intent: weather_for_location
+  examples: |
+    -what is the weather in [Oujda](location)
+    -what is the waether in [Rabat](location)
+    -weather of [Casablanca](location)
+    -Today's weather in [Tangier](location)
+    -[Nador](location) weather
+    -Tell me weather of [Fes](location)
+    -Can you tell me weather of [Berkane](location)
+- intent: city_info
+  examples: |
+    -[Oujda](location)
+    -[Rabat](location)
+    -[Casablanca](location)
+    -[Tangier](location)
+    -[Nador](location)
+    -[Fes](location)
+    -[Berkane](location)
+- intent: thanks
+  examples: |
+    -thanks
+    -thank you
+    -ook
